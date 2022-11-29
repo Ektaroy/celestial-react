@@ -121,16 +121,21 @@ function Doubt() {
               nisl. Aliquam elementum tortor a nibh maximus, id porta est
               accumsan.
             </p>
+
+            <div className="container question ">
+                <p className="myfirst "></p>
+              </div>
+
           </div>
-          <a href="">
+          {/* <a href=""> */}
             <div className="answer-container">
               <img src="src\assets\Message.svg" alt="" />
-              <button className="post-doubt-post-button">
+              <button className="post-doubt-post-button"  id="answerC" onClick={popUp}>
           <p>Answer</p>
           </button>
               <p>Other Answers</p>
             </div>
-          </a>
+          {/* </a> */}
         </div>
       </div>
       {/* <div class="left-margin"> */}
