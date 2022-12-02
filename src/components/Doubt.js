@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React from 'react';
+import './Doubt.css';
 function Doubt() {
   return (
 <>
@@ -57,7 +57,7 @@ function Doubt() {
           type="text"
           placeholder="Search Category"
           className="search-bar"
-        />
+        /> */
         {/* <span class="icon-position">
       <img src="assets\Vector.svg">
     </span> */}
